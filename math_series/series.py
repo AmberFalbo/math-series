@@ -1,4 +1,12 @@
 def fibonacci(n):
+    """ Returns the nth value in the fibonacci series.
+
+    Args:
+        n ([int]): [description]
+
+    Returns:
+        n ([int]): [description]
+    """
     if isinstance(n, int):
         if n <= 1:
             return 0
