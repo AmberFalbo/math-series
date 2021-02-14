@@ -31,3 +31,14 @@ def lucas(n):
         return 1
     return lucas(n - 1) + lucas(n - 2)
 
+def sum_series(n, first=0, second=1):
+    # if n == 0:
+    #     return 0
+    if n == 1:
+        return 0
+    for i in range(2, n):
+        temp = first + second
+        first = second
+        second = temp
+
+    return temp

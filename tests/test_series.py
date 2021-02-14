@@ -1,4 +1,4 @@
-from math_series.series import fibonacci, lucas
+from math_series.series import fibonacci, lucas, sum_series
 
 
 def test_fibonacci_first():
@@ -24,3 +24,15 @@ def test_lucas_second():
 
 def test_lucas_12th():
     assert lucas(12) == 199
+
+def test_sum_series_first_fib():
+    assert sum_series(1) == 0
+
+
+def test_sum_series_12th_fib():
+    assert sum_series(12) == 89
+
+# def test_sum_series_lucas_forth():
+#     assert sum_series(4, first=2, second=1) == 4
+
+
