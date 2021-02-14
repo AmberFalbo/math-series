@@ -32,7 +32,8 @@ def test_sum_series_first_fib():
 def test_sum_series_12th_fib():
     assert sum_series(12) == 89
 
-# def test_sum_series_lucas_forth():
-#     assert sum_series(4, first=2, second=1) == 4
+def test_sum_series_lucas_forth():
+    assert sum_series(4, first=2, second=1) == 4
 
-
+def test_sum_series_lucas_eighth():
+    assert sum_series(8, first=2, second=1) == 29

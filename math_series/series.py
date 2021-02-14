@@ -32,8 +32,16 @@ def lucas(n):
     return lucas(n - 1) + lucas(n - 2)
 
 def sum_series(n, first=0, second=1):
-    # if n == 0:
-    #     return 0
+    """Return either Fibonacci or lucas series depending on what optional parameters you're using.
+
+    Args:
+        n ([int]): [description]
+        first (int, optional): [description]. Defaults to 0.
+        second (int, optional): [description]. Defaults to 1.
+
+    Returns:
+        [int]: [description]
+    """
     if n == 1:
         return 0
     for i in range(2, n):
