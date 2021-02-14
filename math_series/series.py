@@ -17,5 +17,17 @@ def fibonacci(n):
 
 
 def lucas(n):
-    
+    """Returns the nth value in the lucas numbers.
+
+    Args:
+        n ([int]): [description]
+
+    Returns:
+        n ([int]): [description]
+    """
+    if n == 1:
+        return 2
+    if n == 2:
+        return 1
+    return lucas(n - 1) + lucas(n - 2)
 
