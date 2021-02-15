@@ -2,7 +2,7 @@
 
 ## Lab: 02 - Modules, Containers, and Testing
 
-*Author: Amber Falbo*
+*Author: Amber Falbo
 
 ----
 
@@ -34,3 +34,7 @@ Then select and open ```AboutMe.py```
 
 ### Visuals
 ![Math Series Whiteboard](./assets/Lab02_math_series.jpg)
+
+## Change Log
+
+02-14-2021 - finished fibonacci(), lucas(), sum_series(), with passing tests.
